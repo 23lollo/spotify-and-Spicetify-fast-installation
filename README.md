@@ -17,7 +17,7 @@ This script will install both spotify and spicetify on your pc easy and straight
 
 ![image](https://github.com/user-attachments/assets/2b401cbd-b0bb-420d-84fd-1c68b42c5eef)
 
-4.
+4.Use the tutorial of the original page of [adblockify](https://github.com/rxri/spicetify-extensions/tree/main/adblock)
 
 
 
