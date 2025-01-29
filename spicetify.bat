@@ -10,8 +10,11 @@ powershell -Command "Invoke-WebRequest -Uri %SPOTIFY_URL% -OutFile %SPOTIFY_INST
 REM Run the Spotify installer silently
 start /wait %SPOTIFY_INSTALLER%
 
+REM Delete SpotifySetup.exe after installation
+if exist %SPOTIFY_INSTALLER% del %SPOTIFY_INSTALLER%
+
 REM Step 2: Install Spicetify CLI via PowerShell
-REM Automatically answer 'yes' to all prompts
+REM Execute the PowerShell command to install Spicetify
 echo y | powershell -Command "iwr -useb https://raw.githubusercontent.com/spicetify/cli/main/install.ps1 | iex"
 
 echo Installation complete.
