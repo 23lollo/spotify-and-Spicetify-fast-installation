@@ -1,1 +1,0 @@
-spicetify spotify-updates block
